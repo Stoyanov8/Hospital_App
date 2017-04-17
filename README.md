@@ -1,1 +1,1 @@
-# Hospital
+# Base hospital application.
