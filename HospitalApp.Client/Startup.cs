@@ -9,7 +9,6 @@ namespace HospitalApp.Client
         {
             Utility.InitDb();
             AddRoom.AddRooms();
-
         }
     }
 }

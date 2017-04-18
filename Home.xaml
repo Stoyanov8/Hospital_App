@@ -21,7 +21,7 @@
             <Button x:Name="button2_Copy3" Content="Button" Height="100" BorderThickness="0" Background ="Aquamarine"   />
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="96" VerticalAlignment="Top" Width="900">
-            <Image x:Name="image" Source="C:\Users\gstoy\Documents\visual studio 2015\Projects\Hospital.App\Hospital.App\media\banner.jpg" Height="96" Width="900" Stretch="UniformToFill" RenderTransformOrigin="0.957,1.165"/>
+            <Image x:Name="image" Source="media/banner.jpg" Height="96" Width="900" Stretch="UniformToFill" RenderTransformOrigin="0.957,1.165"/>
            
         </StackPanel>
 

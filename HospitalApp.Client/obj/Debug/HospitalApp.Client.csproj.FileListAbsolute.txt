@@ -1,1 +1,32 @@
 D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\HospitalApp.Client.exe.config
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\HospitalApp.Client.exe
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\HospitalApp.Client.pdb
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\HospitalApp.Data.dll
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\Models.dll
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\EntityFramework.dll
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\HospitalApp.Data.pdb
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\Models.pdb
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\EntityFramework.xml
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\obj\Debug\HospitalApp.Client.csprojResolveAssemblyReference.cache
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\obj\Debug\HospitalApp.Client.exe
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\obj\Debug\HospitalApp.Client.pdb
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\HospitalApp.Import.dll
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\Newtonsoft.Json.dll
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\HospitalApp.Import.pdb
+D:\Visual Studio Projects\HospitalApp\HospitalApp.Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Client.exe.config
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.exe
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Client.exe
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Client.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Data.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Import.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\Models.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\EntityFramework.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Data.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Import.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\Models.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\EntityFramework.xml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.csprojResolveAssemblyReference.cache
