@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +14,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using HospitalApp.Data;
+using Models;
 
 namespace Hospital.App
 {
@@ -22,41 +26,47 @@ namespace Hospital.App
     {
         public MainWindow()
         {
+            
             InitializeComponent();
+          
         }
 
         private async void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-
-            String userName = txtBxuserName.Text;
-            string pass = passBxPassword.Password;
+            Global.password = passBxPassword.Password;
             lblfrgtPass.Visibility = Visibility.Hidden;
             Mouse.OverrideCursor = Cursors.Wait;
-            txtBxuserName.IsEnabled = false;
             passBxPassword.IsEnabled = false;
             btnLogin.IsEnabled = false;
-            if (userName == "admin" && pass == "admin")
+            using (var context = new HospitalAppEntities())
             {
-                loadingGif.Visibility = Visibility.Visible;
-                await Task.Delay(3000);
-                Home home = new Home();
-                home.Show();
-                Close();
-                Mouse.OverrideCursor = Cursors.Arrow;
-            }
-            else
-            {
+                var pass = context.Doctors
+                    .Select(p => p.Password)
+                    .ToList();
+
+                foreach (var pas in pass)
+                {
+                    if (Global.password == pas)
+                    {
+                        loadingGif.Visibility = Visibility.Visible;
+
+                        await Task.Delay(3000);
+                        Home home = new Home();
+                        home.Show();
+                        Close();
+                        Mouse.OverrideCursor = Cursors.Arrow;
+                    }
+                }
 
                 lblfrgtPass.Visibility = Visibility.Visible;
                 lblfrgtPass.Content = "Forgot Password ?";
-                txtBxuserName.IsEnabled = true;
-                txtBxuserName.BorderBrush = Brushes.Red;
                 passBxPassword.IsEnabled = true;
                 passBxPassword.BorderBrush = Brushes.Red;
                 btnLogin.IsEnabled = true;
                 Mouse.OverrideCursor = null;
             }
         }
+
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {

@@ -129,12 +129,18 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="HospitalApp.Data\HospitalApp.Data.csproj">
       <Project>{6D63925E-427D-4CC2-8AD1-B38653DD49F6}</Project>
       <Name>HospitalApp.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="HospitalApp.Models\HospitalApp.Models.csproj">
+      <Project>{75ec287d-7563-4df9-a9bf-ce6f656e6b21}</Project>
+      <Name>HospitalApp.Models</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

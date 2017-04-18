@@ -33,20 +33,39 @@ D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Home.baml
 D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Hospital.App.g.resources
 D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Hospital.App.Properties.Resources.resources
 D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Hospital.App.csproj.GenerateResource.Cache
+<<<<<<< .mine
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\Hospital.App.exe.config
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App.exe
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App.pdb
+||||||| .r11
+=======
 D:\HospitalAppGit\trunk\bin\Debug\Hospital.App.exe.config
 D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.exe
 D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.pdb
-D:\HospitalAppGit\trunk\bin\Debug\Hospital.App.exe
-D:\HospitalAppGit\trunk\bin\Debug\Hospital.App.pdb
-D:\HospitalAppGit\trunk\bin\Debug\WpfAnimatedGif.xml
-D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.csprojResolveAssemblyReference.cache
-D:\HospitalAppGit\trunk\obj\Debug\MainWindow.baml
-D:\HospitalAppGit\trunk\obj\Debug\Home.g.cs
-D:\HospitalAppGit\trunk\obj\Debug\MainWindow.g.cs
-D:\HospitalAppGit\trunk\obj\Debug\App.g.cs
-D:\HospitalAppGit\trunk\obj\Debug\Hospital.App_MarkupCompile.cache
-D:\HospitalAppGit\trunk\obj\Debug\Hospital.App_MarkupCompile.lref
-D:\HospitalAppGit\trunk\obj\Debug\Home.baml
-D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.g.resources
-D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.Properties.Resources.resources
-D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.csproj.GenerateResource.Cache
+>>>>>>> .r14
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\Hospital.App.exe
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\Hospital.App.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\WpfAnimatedGif.xml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App.csprojResolveAssemblyReference.cache
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\MainWindow.baml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Home.g.cs
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\MainWindow.g.cs
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\App.g.cs
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App_MarkupCompile.cache
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App_MarkupCompile.lref
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Home.baml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App.g.resources
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App.Properties.Resources.resources
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Hospital.App.csproj.GenerateResource.Cache
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Pages\MyInfo.g.cs
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Pages\MyInfo.baml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\EntityFramework.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\HospitalApp.Data.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\Models.dll
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\HospitalApp.Data.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\Models.pdb
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\EntityFramework.xml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Pages\Rooms.g.cs
+C:\Users\gstoy\Desktop\Hospital_App\trunk\obj\Debug\Pages\Rooms.baml
