@@ -1,0 +1,27 @@
+﻿<Page x:Class="Hospital.App.Pages.MyInfo"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Hospital.App.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="MyInfo">
+
+    <Grid Margin="10">
+
+
+        <TextBlock x:Name="FirstName"  IsManipulationEnabled="True"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="45" Width="282" Margin="304,8,-306,0" FontSize="20" FontFamily="Times New Roman" RenderTransformOrigin="0.383,-0.385"/>
+        <TextBlock x:Name="LastName"  HorizontalAlignment="Left" Margin="304,58,-261,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="40" Width="237" FontSize="20" FontFamily="Times New Roman"/>
+        <TextBlock x:Name="Speciality" Text="daad" HorizontalAlignment="Left" Margin="302,118,-279,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="35" Width="257" RenderTransformOrigin="0.526,2.258" FontSize="20" FontFamily="Times New Roman"/>
+        <TextBlock x:Name="Salary" Text="dsa" HorizontalAlignment="Left" Margin="301,309,-303,-70" TextWrapping="Wrap"  VerticalAlignment="Top" Height="41" Width="282" FontSize="20" FontFamily="Times New Roman"/>
+        <TextBlock x:Name="Gender" IsManipulationEnabled="True" Text="dsa" HorizontalAlignment="Left" Margin="302,251,-304,-8" TextWrapping="Wrap"  VerticalAlignment="Top" Height="37" Width="282" RenderTransformOrigin="0.526,2.258" FontSize="20" FontFamily="Times New Roman"/>
+        <TextBlock x:Name="Birthdate" Text="dsa" HorizontalAlignment="Left" Margin="302,174,-317,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="52" Width="295" RenderTransformOrigin="0.526,2.258" FontSize="20" FontFamily="Times New Roman"/>
+        <Label x:Name="label" Content="First Name" HorizontalAlignment="Left" Margin="3,4,-23,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.158" FontSize="20" FontFamily="Times New Roman" Height="45" Width="300"/>
+        <Label x:Name="label_Copy" Content="Gender: " HorizontalAlignment="Left" Margin="3,238,0,-8" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.158" FontSize="20" FontFamily="Times New Roman" Height="50" Width="171"/>
+        <Label x:Name="label_Copy1" Content="Last Name: " HorizontalAlignment="Left" Margin="3,59,-19,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.158" FontSize="20" FontFamily="Times New Roman" Height="44" Width="296"/>
+        <Label x:Name="label_Copy2" Content="Salary:" HorizontalAlignment="Left" Margin="3,302,0,-74" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.158" FontSize="20" FontFamily="Times New Roman" Height="52" Width="223"/>
+        <Label x:Name="label_Copy3" Content="Specialty: " HorizontalAlignment="Left" Margin="-1,113,-6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.158" FontSize="20" FontFamily="Times New Roman" Height="49" Width="287"/>
+        <Label x:Name="label_Copy4" Content="Hire Date:" HorizontalAlignment="Left" Margin="3,183,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.024,0.158" FontSize="20" FontFamily="Times New Roman" Height="43" Width="221"/>
+    </Grid>
+</Page>

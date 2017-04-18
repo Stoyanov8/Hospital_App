@@ -23,5 +23,10 @@ namespace Hospital.App
         {
             Main.Content = new MyInfo();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Patients();
+        }
     }
 }

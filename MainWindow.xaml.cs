@@ -23,18 +23,18 @@ namespace Hospital.App
     {
         public MainWindow()
         {
-            
+
             InitializeComponent();
-          
+
         }
 
         private async void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-          Global.password = passBxPassword.Password;
-          lblfrgtPass.Visibility = Visibility.Hidden;
-          Mouse.OverrideCursor = Cursors.Wait;
-          passBxPassword.IsEnabled = false;
-          btnLogin.IsEnabled = false;
+            Global.password = passBxPassword.Password;
+            lblfrgtPass.Visibility = Visibility.Hidden;
+            Mouse.OverrideCursor = Cursors.Wait;
+            passBxPassword.IsEnabled = false;
+            btnLogin.IsEnabled = false;
             using (var context = new HospitalAppEntities())
             {
                 var pass = context.Doctors
@@ -46,12 +46,11 @@ namespace Hospital.App
                     if (Global.password == pas)
                     {
                         loadingGif.Visibility = Visibility.Visible;
-
                         await Task.Delay(3000);
                         Home home = new Home();
                         home.Show();
                         Close();
-                        Mouse.OverrideCursor = Cursors.Arrow;         
+                        Mouse.OverrideCursor = Cursors.Arrow;
                     }
                 }
 

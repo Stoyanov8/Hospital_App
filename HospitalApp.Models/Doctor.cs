@@ -11,14 +11,16 @@ namespace Models
             this.Rehabilitations = new HashSet<Rehabilitation>();
             this.Surgeries = new HashSet<Surgery>();
         }
+
         public int Id { get; set; }
+
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
 
         public string Gender { get; set; }
 
-        public DateTime BirthDay { get; set; }
+        public DateTime HireDate { get; set; }
 
         public float Salary { get; set; }
 
