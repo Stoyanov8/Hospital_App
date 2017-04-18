@@ -9,22 +9,25 @@
         WindowStyle="None"         
         ResizeMode="CanMinimize"
         WindowStartupLocation="CenterScreen"
-        Icon="\media\icon.jpg">
-    <Grid>
+        Icon="media/icon.jpg">
+    <Grid Margin="0,0,0,0">
         <StackPanel HorizontalAlignment="Left" Height="704" VerticalAlignment="Top" Width="92" RenderTransformOrigin="-0.629,0.493" Margin="0,96,0,0">
-            <Button x:Name="button" Content="Button" Height="100" BorderThickness="0" Background ="Aquamarine"/>
-            <Button x:Name="button1" Content="Button" Height="100" BorderThickness="0" Background ="Aquamarine"/>
-            <Button x:Name="button2" Content="Button" Height="100"  BorderThickness="0" Background ="Aquamarine"  />
-            <Button x:Name="button2_Copy" Content="Button" Height="100"  BorderThickness="0" Background ="Aquamarine"  />
-            <Button x:Name="button2_Copy1" Content="Button" Height="100"  BorderThickness="0" Background ="Aquamarine"  />
-            <Button x:Name="button2_Copy2" Content="Button" Height="100" BorderThickness="0" Background ="Aquamarine"   />
-            <Button x:Name="button2_Copy3" Content="Button" Height="100" BorderThickness="0" Background ="Aquamarine"   />
+            <Button x:Name="button" Content="My Information" Height="100" BorderThickness="0" Background ="Azure" Click="MyInfo_click"/>
+            <Button x:Name="button1" Content="Button" Height="100" BorderThickness="0" Background ="Azure"/>
+            <Button x:Name="button2" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
+            <Button x:Name="button2_Copy" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
+            <Button x:Name="button2_Copy1" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
+            <Button x:Name="button2_Copy2" Content="Button" Height="100" BorderThickness="0" Background ="Azure"   />
+            <Button x:Name="button2_Copy3" Content="Button" Height="100" BorderThickness="0" Background ="Azure"   />
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="96" VerticalAlignment="Top" Width="900">
             <Image x:Name="image" Source="media/banner.jpg" Height="96" Width="900" Stretch="UniformToFill" RenderTransformOrigin="0.957,1.165"/>
-           
         </StackPanel>
-
+        <Frame x:Name="Main" RenderTransformOrigin="0.605,0.56" Margin="97,96,10,0"
+               Background="Azure">
+            
+        </Frame>
+        <DataGrid x:Name="dataGrid"  HorizontalAlignment="Left" Margin="241,359,0,0" VerticalAlignment="Top" Height="166" Width="232" RenderTransformOrigin="0.413,-0.447"/>
     </Grid>
 
 </Window>
