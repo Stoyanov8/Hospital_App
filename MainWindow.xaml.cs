@@ -19,9 +19,6 @@ using Models;
 
 namespace Hospital.App
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -33,11 +30,11 @@ namespace Hospital.App
 
         private async void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            Global.password = passBxPassword.Password;
-            lblfrgtPass.Visibility = Visibility.Hidden;
-            Mouse.OverrideCursor = Cursors.Wait;
-            passBxPassword.IsEnabled = false;
-            btnLogin.IsEnabled = false;
+          Global.password = passBxPassword.Password;
+          lblfrgtPass.Visibility = Visibility.Hidden;
+          Mouse.OverrideCursor = Cursors.Wait;
+          passBxPassword.IsEnabled = false;
+          btnLogin.IsEnabled = false;
             using (var context = new HospitalAppEntities())
             {
                 var pass = context.Doctors
@@ -54,7 +51,7 @@ namespace Hospital.App
                         Home home = new Home();
                         home.Show();
                         Close();
-                        Mouse.OverrideCursor = Cursors.Arrow;
+                        Mouse.OverrideCursor = Cursors.Arrow;         
                     }
                 }
 
