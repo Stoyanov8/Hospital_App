@@ -1,0 +1,16 @@
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\HospitalApp.Import.dll.config
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\HospitalApp.Import.dll
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\HospitalApp.Import.pdb
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\EntityFramework.dll
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\EntityFramework.SqlServer.dll
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\HospitalApp.Data.dll
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\Models.dll
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\Newtonsoft.Json.dll
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\HospitalApp.Data.pdb
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\Models.pdb
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\EntityFramework.xml
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\EntityFramework.SqlServer.xml
+D:\HospitalAppGit\trunk\HospitalApp.Import\bin\Debug\Newtonsoft.Json.xml
+D:\HospitalAppGit\trunk\HospitalApp.Import\obj\Debug\HospitalApp.Import.csprojResolveAssemblyReference.cache
+D:\HospitalAppGit\trunk\HospitalApp.Import\obj\Debug\HospitalApp.Import.dll
+D:\HospitalAppGit\trunk\HospitalApp.Import\obj\Debug\HospitalApp.Import.pdb

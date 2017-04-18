@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Models
 {
@@ -11,8 +12,18 @@ namespace Models
             this.Surgeries = new HashSet<Surgery>();
         }
         public int Id { get; set; }
-        public int  EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
+
+        public string Gender { get; set; }
+
+        public DateTime BirthDay { get; set; }
+
+        public float Salary { get; set; }
+
+        public int Password { get; set; }
+
         public string Specialty { get; set; }
 
         public virtual  ICollection<Exam> Exams { get; set; }

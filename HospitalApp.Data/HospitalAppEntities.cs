@@ -8,15 +8,12 @@ namespace HospitalApp.Data
 
     public class HospitalAppEntities : DbContext
     {
-       
+
         public HospitalAppEntities()
             : base("name=HospitalAppEntities")
         {
-           Database.SetInitializer(new DropCreateDatabaseAlways<HospitalAppEntities>());
+            Database.SetInitializer(new DropCreateDatabaseAlways<HospitalAppEntities>());
         }
-
-
-        public virtual DbSet<Employee> Employees { get; set; }
 
 
         public virtual DbSet<Disease> Diseases { get; set; }

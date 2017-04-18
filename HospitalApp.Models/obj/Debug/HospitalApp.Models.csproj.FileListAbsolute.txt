@@ -1,0 +1,5 @@
+D:\HospitalAppGit\trunk\HospitalApp.Models\bin\Debug\Models.dll
+D:\HospitalAppGit\trunk\HospitalApp.Models\bin\Debug\Models.pdb
+D:\HospitalAppGit\trunk\HospitalApp.Models\obj\Debug\HospitalApp.Models.csprojResolveAssemblyReference.cache
+D:\HospitalAppGit\trunk\HospitalApp.Models\obj\Debug\Models.dll
+D:\HospitalAppGit\trunk\HospitalApp.Models\obj\Debug\Models.pdb
