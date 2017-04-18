@@ -11,6 +11,7 @@ namespace HospitalApp.Client
             AddRoom.AddRooms();
             AddDoctor.AddDoctors();
             AddPatient.AddPatients();
+            AddDisease.AddDiseases();
         }
     }
 }

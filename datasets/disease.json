@@ -1,0 +1,21 @@
+[
+    {
+        "Name": "Pox",
+        "Description": "Dots around your body",
+        "Complexity": "5"
+       
+    },
+	{
+        "Name": "Vitiligo",
+        "Description": "Areas on your skin,without pigmentation",
+        "Complexity": "8"
+       
+    },
+	{
+        "Name": "Cancer",
+        "Description": "Deadly disease",
+        "Complexity": "10"
+       
+    }
+	
+]

@@ -33,7 +33,7 @@ namespace HospitalApp.Import
                         PhoneNumber = patient.PhoneNumber 
 
                     });
-                    Console.WriteLine($"Added new patients :{patient.FirstName} {patient.LastName}");
+                    Console.WriteLine($"Added new patient :{patient.FirstName} {patient.LastName}");
 
                 }
                 context.SaveChanges();

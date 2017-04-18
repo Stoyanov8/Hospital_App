@@ -53,6 +53,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddDisease.cs" />
     <Compile Include="AddDoctor.cs" />
     <Compile Include="AddPatient.cs" />
     <Compile Include="AddRoom.cs" />

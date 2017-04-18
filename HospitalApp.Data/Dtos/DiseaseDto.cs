@@ -1,9 +1,7 @@
-﻿namespace Models
+﻿namespace HospitalApp.Data.Dtos
 {
-    public class Disease
+    public class DiseaseDto
     {
-        public int  Id { get; set; }
-
         public string Name { get; set; }
 
         public string Description { get; set; }
