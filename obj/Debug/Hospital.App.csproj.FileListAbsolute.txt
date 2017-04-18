@@ -33,3 +33,6 @@ D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Home.baml
 D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Hospital.App.g.resources
 D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Hospital.App.Properties.Resources.resources
 D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\Hospital.App.csproj.GenerateResource.Cache
+D:\HospitalAppGit\trunk\bin\Debug\Hospital.App.exe.config
+D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.exe
+D:\HospitalAppGit\trunk\obj\Debug\Hospital.App.pdb

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Visual Studio Projects\Hospital_App.git\trunk\obj\Debug\
+D:\HospitalAppGit\trunk\obj\Debug\
 Hospital.App
 none
 false
 DEBUG;TRACE
-D:\Visual Studio Projects\Hospital_App.git\trunk\App.xaml
+D:\HospitalAppGit\trunk\App.xaml
 2-621098922
 
 1047831176
-14126288001
+141811652712
 Home.xaml;MainWindow.xaml;
 
 True
