@@ -27,7 +27,7 @@ namespace HospitalApp.Import
                         FirstName  = doctor.FirstName ,
                         LastName = doctor.LastName,
                         Gender = doctor.Gender,
-                        BirthDay = doctor.BirthDay,
+                        BirthDay = doctor.HireDate,
                         Salary = doctor.Salary,
                         Specialty = doctor.Specialty,
                         Password = doctor.Password

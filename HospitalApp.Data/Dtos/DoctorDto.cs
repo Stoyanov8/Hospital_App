@@ -11,7 +11,7 @@ namespace HospitalApp.Data.Dtos
 
         public string Gender { get; set; }
 
-        public DateTime BirthDay { get; set; }
+        public DateTime HireDate { get; set; }
 
         public float Salary { get; set; }
 
