@@ -10,13 +10,13 @@ namespace Models
 
         public string LastName { get; set; }
 
+        public string Gender { get; set; }
+
         public DateTime BirthDay  { get; set; }
 
         public string Adress { get; set; }
 
         public int  PhoneNumber { get; set; }
-
-
 
     }
 }
