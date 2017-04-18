@@ -14,8 +14,6 @@ namespace Models
 
         public int Number { get; set; }
 
-        public int Floor { get; set; }
-
         public virtual  ICollection<Exam> Exams { get; set; }
 
         public virtual ICollection<Surgery> Surgeries { get; set; }
