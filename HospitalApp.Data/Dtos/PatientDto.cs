@@ -15,7 +15,7 @@ namespace HospitalApp.Data.Dtos
 
         public string Adress { get; set; }
 
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
 
 
     }

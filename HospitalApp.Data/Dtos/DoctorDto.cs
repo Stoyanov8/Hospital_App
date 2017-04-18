@@ -17,7 +17,7 @@ namespace HospitalApp.Data.Dtos
 
         public string Type { get; set; }
 
-        public int Password { get; set; }
+        public string Password { get; set; }
 
         public string Specialty { get; set; }
     }

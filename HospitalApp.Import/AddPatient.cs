@@ -12,7 +12,7 @@ namespace HospitalApp.Import
     {
         public static void AddPatients()
         {
-            var json = File.ReadAllText("../../../datasets/patiets.json");
+            var json = File.ReadAllText("../../../datasets/patients.json");
             var patients = JsonConvert.DeserializeObject<IEnumerable<PatientDto>>(json);
             AddPatient.AddPatients(patients);
         }
@@ -33,6 +33,7 @@ namespace HospitalApp.Import
                         PhoneNumber = patient.PhoneNumber 
 
                     });
+                    Console.WriteLine($"Added new patients :{patient.FirstName} {patient.LastName}");
 
                 }
                 context.SaveChanges();
