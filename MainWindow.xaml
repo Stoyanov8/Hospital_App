@@ -17,12 +17,12 @@
         <Image Source="media/wallpaper1.jpg"
         Stretch="UniformToFill" Width="420" Height="240"/>
         <Label Content="User Name" Margin="169,47,0,0" Name="label2" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="79" Foreground="White" RenderTransformOrigin="0.525,5.401" />
-        <TextBox Margin="253,0,0,163" Name="txtBxuserName" Height="30" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="157" FontFamily="FontAwesome" Background="#00000000" OpacityMask="White" BorderBrush="White" Foreground="White" RenderTransformOrigin="0.653,-0.808" />
+        <TextBox Margin="248,0,0,163" Name="txtBxuserName" Height="30" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="157" FontFamily="FontAwesome" Background="#00000000" OpacityMask="White" BorderBrush="White" Foreground="White" RenderTransformOrigin="0.653,-0.808" />
         <Label Content="Password" Name="label3" Margin="169,107,0,0" Height="29" VerticalAlignment="Top" HorizontalAlignment="Left" Width="79" Foreground="White" RenderTransformOrigin="0.56,-2.09" />
         <PasswordBox Margin="253,0,0,104" Name="passBxPassword" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="157" FontFamily="FontAwesome" BorderBrush="White" Background="#00000000" PasswordChar="*" OverridesDefaultStyle="False" SelectionBrush="#FFFFB14A" Height="30" VerticalAlignment="Bottom" Foreground="White" />
         <Label Content="Forgot Password ?" Margin="253,206,0,0" Name="lblfrgtPass" Foreground="White" FontStretch="Normal" FontFamily="FontAwesome" FontStyle="Normal" FontWeight="Normal" Visibility="Hidden" Height="28" VerticalAlignment="Top" HorizontalAlignment="Left" Width="126" />
         <Button Content="Login" Margin="284,165,0,0" Name="btnLogin" Click="btnLogin_Click" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="93" Cursor="Hand" FontFamily="FontAwesome" Background="#00000000" Foreground="White" BorderBrush="White" RenderTransformOrigin="1.791,5.037" />
-        <Image Name ="loadingGif" gif:ImageBehavior.AnimatedSource="C:\Users\gstoy\Documents\visual studio 2015\Projects\Hospital.App\Hospital.App\media\loader.gif" Height="20" Width="60" Visibility="Hidden" RenderTransformOrigin="-1.287,3.654" Margin="284,206,76,14"></Image>
+        <Image Name ="loadingGif" gif:ImageBehavior.AnimatedSource="media\loader.gif" Height="20" Width="60" Visibility="Hidden" RenderTransformOrigin="-1.287,3.654" Margin="284,206,76,14"></Image>
         <Button Content="X" Height="22" HorizontalAlignment="Left" Name="btnClose" VerticalAlignment="Top" Width="22" Background="#00000000" BorderBrush="#00000000" Click="btnClose_Click" BorderThickness="0" Cursor="Arrow" ForceCursor="False" ToolTip="Close" Margin="398,0,0,0" Foreground="White" RenderTransformOrigin="6.925,0.761" />
     </Grid>
 </Window>

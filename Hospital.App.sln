@@ -5,13 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hospital.App", "Hospital.App.csproj", "{754F5D90-224B-43AE-A650-71412D875EC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Models", "..\..\HospitalApp\HospitalApp.Models\HospitalApp.Models.csproj", "{75EC287D-7563-4DF9-A9BF-CE6F656E6B21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Models", "HospitalApp.Models\HospitalApp.Models.csproj", "{75EC287D-7563-4DF9-A9BF-CE6F656E6B21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Import", "..\..\HospitalApp\HospitalApp.Import\HospitalApp.Import.csproj", "{31C3B4C2-DE48-4727-965E-6359A624FBFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Import", "HospitalApp.Import\HospitalApp.Import.csproj", "{31C3B4C2-DE48-4727-965E-6359A624FBFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Data", "..\..\HospitalApp\HospitalApp.Data\HospitalApp.Data.csproj", "{6D63925E-427D-4CC2-8AD1-B38653DD49F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Data", "HospitalApp.Data\HospitalApp.Data.csproj", "{6D63925E-427D-4CC2-8AD1-B38653DD49F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Client", "..\..\HospitalApp\HospitalApp.Client\HospitalApp.Client.csproj", "{801BAEA0-B022-4AA5-AD76-012F6BB82E94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalApp.Client", "HospitalApp.Client\HospitalApp.Client.csproj", "{801BAEA0-B022-4AA5-AD76-012F6BB82E94}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
