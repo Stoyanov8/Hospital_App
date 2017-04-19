@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="AddDisease.cs" />
     <Compile Include="AddDoctor.cs" />
+    <Compile Include="AddExam.cs" />
     <Compile Include="AddPatient.cs" />
     <Compile Include="AddRoom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -12,6 +12,7 @@ namespace HospitalApp.Client
             AddDoctor.AddDoctors();
             AddPatient.AddPatients();
             AddDisease.AddDiseases();
+            AddExam.ImportExams();
         }
     }
 }

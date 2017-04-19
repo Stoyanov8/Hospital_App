@@ -34,8 +34,6 @@ namespace HospitalApp.Import
                     Console.WriteLine($"Added new disease : {disease.Name}");
                     
                 }
-
-
                 context.SaveChanges();
             }
         }
