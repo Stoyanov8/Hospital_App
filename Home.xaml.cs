@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using Hospital.App.Pages;
 using System.Data.SqlClient;
+using System.Windows.Input;
 
 namespace Hospital.App
 {
@@ -18,10 +19,17 @@ namespace Hospital.App
         public Home()
         {
             InitializeComponent();
+         
         }
         private void MyInfo_click(object sender, RoutedEventArgs e)
         {
             Main.Content = new MyInfo();
+          
+        }
+
+        private void patients_click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new Patients();
         }
     }
 }

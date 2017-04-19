@@ -6,17 +6,17 @@
         xmlns:local="clr-namespace:Hospital.App"
         mc:Ignorable="d"
         Title="Home" Height="800" Width="900"
-        WindowStyle="None"         
-        ResizeMode="CanMinimize"
+        WindowStyle="SingleBorderWindow"         
+        ResizeMode="NoResize"
         WindowStartupLocation="CenterScreen"
         Icon="media/icon.jpg">
     <Grid Margin="0,0,0,0">
         <StackPanel HorizontalAlignment="Left" Height="704" VerticalAlignment="Top" Width="92" RenderTransformOrigin="-0.629,0.493" Margin="0,96,0,0">
-            <Button x:Name="button" Content="My Information" Height="100" BorderThickness="0" Background ="Azure" Click="MyInfo_click"/>
-            <Button x:Name="button1" Content="Patients" Height="100" BorderThickness="0" Background ="Azure" />
-            <Button x:Name="button2" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
-            <Button x:Name="button2_Copy" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
-            <Button x:Name="button2_Copy1" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
+            <Button x:Name="MyInfo" Content="My Information" Height="100" BorderThickness="0" Background ="Azure" Click="MyInfo_click"/>
+            <Button x:Name="Patients" Content="Patients" Height="100" BorderThickness="0" Background ="Azure" Click="patients_click"/>
+            <Button x:Name="Rooms" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
+            <Button x:Name="button2_Copy" Content="Button" Height="100"  BorderThickness="0" Background ="Azure" />
+            <Button x:Name="button2_Copy1" Content="Button" Height="100"  BorderThickness="0" Background ="Azure" />
             <Button x:Name="button2_Copy2" Content="Button" Height="100" BorderThickness="0" Background ="Azure"   />
             <Button x:Name="button2_Copy3" Content="Button" Height="100" BorderThickness="0" Background ="Azure"   />
         </StackPanel>
@@ -26,6 +26,5 @@
         <Frame x:Name="Main" RenderTransformOrigin="0.605,0.56" Margin="97,96,10,0"
                Background="Azure" NavigationUIVisibility="Hidden">
         </Frame>
-         </Grid>
-
+    </Grid>
 </Window>

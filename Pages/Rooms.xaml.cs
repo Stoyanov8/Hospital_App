@@ -28,5 +28,10 @@ namespace Hospital.App.Pages
         private void Button_Click(object sender, RoutedEventArgs e)
         {
         }
+
+        private void listView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

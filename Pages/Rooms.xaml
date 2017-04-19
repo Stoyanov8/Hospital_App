@@ -8,17 +8,19 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Rooms">
 
-    <Grid RenderTransformOrigin="0.909,-5.289">
-        <Button Content="Submit" Margin="0,0,232,268" Click="Button_Click">
-            <Button.ToolTip>
-                <ToolTip>
-                    <StackPanel>
-                        <TextBlock></TextBlock>
-                        <TextBlock></TextBlock>
-                    </StackPanel>
-                </ToolTip>
-            </Button.ToolTip>
-        </Button>
+    <Grid >
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="157" VerticalAlignment="Top" Width="300" SelectionChanged="listView_SelectionChanged" Margin="0,24,0,0">
+            <ListView.View>
+                <GridView >
+                    <GridViewColumn Header="First Name" Width="90"/>
+                    <GridViewColumn Header="Last Name" Width="90" />
+                    <GridViewColumn Header="Gender" Width="60"/>
+                    <GridViewColumn />
+                </GridView>
+            </ListView.View>
+            <ScrollBar x:Name="scrollBar"  Width="21" RenderTransformOrigin="2.666,2.423" Height="73"/>
+        </ListView>
 
+        <Label x:Name="label" Content="My patints" HorizontalAlignment="Center" Margin="51,232,69,0" FontSize="16" VerticalAlignment="Top" Width="180" Height="32"/>
     </Grid>
 </Page>
