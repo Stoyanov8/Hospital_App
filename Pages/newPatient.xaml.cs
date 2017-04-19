@@ -37,7 +37,10 @@ namespace Hospital.App.Pages
                 patient.Address = Address.Text;
                 patient.PhoneNumber = PhoneNumber.Text;
                 context.Patients.Add(patient);
+                added.Content = $"Patient {patient.FirstName} {patient.LastName} added !";
+                added.Visibility = Visibility.Visible;
                 context.SaveChanges();
+               
             }
         }
     }

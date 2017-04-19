@@ -7,19 +7,18 @@
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="newPatient">
-
-
-    <Grid>
-        <TextBox Name="FirstName" Margin="138,67,90,207"></TextBox>
-        <TextBox Name="LastName" Margin="138,102,90,171"></TextBox>
-        <TextBox Name="Address" Margin="138,141,90,136"></TextBox>
-        <TextBox Name="Gender" Margin="138,217,90,60"></TextBox>
-
-        <TextBox Name="PhoneNumber" Margin="138,177,90,97" RenderTransformOrigin="0.34,8.125"></TextBox>
-        <Button x:Name="saveButton" Content="Save" HorizontalAlignment="Left" Margin="122,245,0,0" VerticalAlignment="Top" Width="79" Height="28" Click="newPatient_Save_click"/>
-        <Label x:Name="label" Content="First Name: " HorizontalAlignment="Left" Margin="45,67,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
-        <Label x:Name="label_Copy" Content="First Name: " HorizontalAlignment="Left" Margin="45,97,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
-        <Label x:Name="label_Copy1" Content="Address" HorizontalAlignment="Left" Margin="45,134,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323" Height="30" Width="61"/>
-        <Label x:Name="label_Copy2" Content="Phone number" HorizontalAlignment="Left" Margin="31,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
+    <Grid Width="600" Height="600" Margin="0,0,-300,-300" VerticalAlignment="Top" RenderTransformOrigin="0.481,0.454" >
+        <TextBox Name="FirstName" Margin="138,82,342,488" Width="120" Height="30" RenderTransformOrigin="1.321,0.477"></TextBox>
+        <TextBox Name="LastName" Margin="138,112,342,458"  Width="120" Height="30" ></TextBox>
+        <TextBox Name="Address" Margin="138,142,342,428"  Width="120" Height="30" ></TextBox>
+        <TextBox Name="Gender" Margin="138,202,342,368"  Width="120" Height="30" ></TextBox>
+        <TextBox Name="PhoneNumber" Margin="138,172,342,398" Width="120" Height="30"  RenderTransformOrigin="0.34,8.125"></TextBox>
+        <Button x:Name="saveButton" Content="Save" HorizontalAlignment="Left" Margin="145,262,0,0" VerticalAlignment="Top" Width="79" Height="28" Click="newPatient_Save_click"/>
+        <Label x:Name="label" Content="First Name: " HorizontalAlignment="Left" Margin="45,80,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
+        <Label x:Name="label_Copy" Content="Last Name" HorizontalAlignment="Left" Margin="53,111,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
+        <Label x:Name="label_Copy1" Content="Address" HorizontalAlignment="Left" Margin="58,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323" Height="30" Width="61"/>
+        <Label x:Name="label_Copy2" Content="Phone number" HorizontalAlignment="Left" Margin="31,183,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
+        <Label x:Name="label_Copy3" Content="Gender" HorizontalAlignment="Left" Margin="69,214,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
+        <Label x:Name="added" Content="" HorizontalAlignment="Left" Margin="-153,41,0,0" VerticalAlignment="Top" Width="452" Height="28"/>
     </Grid>
 </Page>

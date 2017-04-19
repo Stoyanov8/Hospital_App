@@ -34,3 +34,15 @@ C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Data\bin\Debug\EntityFramework.SqlS
 C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.csprojResolveAssemblyReference.cache
 C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.dll
 C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.pdb
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\HospitalApp.Data.dll.config
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\HospitalApp.Data.dll
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\HospitalApp.Data.pdb
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\EntityFramework.dll
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\Models.dll
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\Models.pdb
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\EntityFramework.xml
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.csprojResolveAssemblyReference.cache
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.dll
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.pdb

@@ -37,5 +37,15 @@ namespace Hospital.App
             Main.Content = new myPatients();
             
         }
+
+        private void Newpatient_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new newPatient();
+        }
+
+        private void editPatient_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

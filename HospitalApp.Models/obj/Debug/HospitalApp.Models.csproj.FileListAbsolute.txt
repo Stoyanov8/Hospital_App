@@ -13,3 +13,8 @@ C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Models\bin\Debug\Models.pdb
 C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Models\obj\Debug\HospitalApp.Models.csprojResolveAssemblyReference.cache
 C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Models\obj\Debug\Models.dll
 C:\Users\gstoy\Desktop\hos\trunk\HospitalApp.Models\obj\Debug\Models.pdb
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Models\bin\Debug\Models.dll
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Models\bin\Debug\Models.pdb
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Models\obj\Debug\HospitalApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Models\obj\Debug\Models.dll
+C:\Users\gstoy\Desktop\a\trunk\HospitalApp.Models\obj\Debug\Models.pdb
