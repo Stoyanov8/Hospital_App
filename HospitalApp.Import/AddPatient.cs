@@ -29,7 +29,7 @@ namespace HospitalApp.Import
                         LastName = patient.LastName,
                         Gender = patient.Gender,
                         BirthDay = patient.BirthDay,
-                        Adress = patient.Address,
+                        Address = patient.Address,
                         PhoneNumber = patient.PhoneNumber 
 
                     });
