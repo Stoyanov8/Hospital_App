@@ -35,14 +35,17 @@ namespace Hospital.App.Pages
                 surgery.PatientId = Convert.ToInt32(PatientId.Text);
                 surgery.DiseaseId = Convert.ToInt32(DiseaseId.Text);
                 surgery.DoctorId = Convert.ToInt32(DoctorId.Text);
-                if (surgery.SurgeryDate == null || surgery.RoomId == 0 || surgery.PatientId == 0 || surgery.DiseaseId == 0 || surgery.DoctorId == 0)
+                if (surgery.RoomId == 0 || surgery.PatientId == 0 || surgery.DiseaseId == 0 || surgery.DoctorId == 0)
                 {
                     MessageBox.Show("Error: Check if there is any missing proparties or 0 values of Ids");
                 }
-                context.Surgeries.Add(surgery);
-                added.Content = $"Surgeries added successfully!";
-                added.Visibility = Visibility.Visible;
-                context.SaveChanges();
+                else
+                {
+                    context.Surgeries.Add(surgery);
+                    added.Content = $"Surgeries added successfully!";
+                    added.Visibility = Visibility.Visible;
+                    context.SaveChanges();
+                }
             }
         }
     }

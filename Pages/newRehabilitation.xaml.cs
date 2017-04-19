@@ -36,14 +36,17 @@ namespace Hospital.App.Pages
                 rehabilitation.PatientId = Convert.ToInt32(PatientId.Text);
                 rehabilitation.DiseaseId = Convert.ToInt32(DiseaseId.Text);
                 rehabilitation.DoctorId = Convert.ToInt32(DoctorId.Text);
-                if (rehabilitation.RehabilitationStartDate == null|| rehabilitation.RehabilitationEndDate ==null || rehabilitation.RoomId==0 || rehabilitation.PatientId == 0 || rehabilitation.DiseaseId == 0 || rehabilitation.DoctorId == 0 )
+                if (rehabilitation.RoomId == 0 || rehabilitation.PatientId == 0 || rehabilitation.DiseaseId == 0 || rehabilitation.DoctorId == 0)
                 {
                     MessageBox.Show("Error: Check if there is any missing proparties or 0 values of Ids");
                 }
-                context.Rehabilitations.Add(rehabilitation);
-                added.Content = $"Rehabilitations added successfully!";
-                added.Visibility = Visibility.Visible;
-                context.SaveChanges();
+                else
+                {
+                    context.Rehabilitations.Add(rehabilitation);
+                    added.Content = $"Rehabilitation added successfully!";
+                    added.Visibility = Visibility.Visible;
+                    context.SaveChanges();
+                }
             }
         }
     }
