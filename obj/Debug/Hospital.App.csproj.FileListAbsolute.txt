@@ -133,3 +133,5 @@ C:\Users\gstoy\Desktop\hos\trunk\obj\Debug\Hospital.App.Properties.Resources.res
 C:\Users\gstoy\Desktop\hos\trunk\obj\Debug\Hospital.App.csproj.GenerateResource.Cache
 C:\Users\gstoy\Desktop\hos\trunk\obj\Debug\Pages\myPatients.baml
 C:\Users\gstoy\Desktop\hos\trunk\obj\Debug\Pages\myPatients.g.cs
+C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\myPatients.baml
+C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\myPatients.g.cs

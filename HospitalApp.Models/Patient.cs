@@ -12,7 +12,7 @@ namespace Models
 
         public string Gender { get; set; }
 
-        public DateTime BirthDay  { get; set; }
+        public DateTime? BirthDay  { get; set; }
 
         public string Address { get; set; }
 
