@@ -18,6 +18,7 @@
         <ListView x:Name="listView_Copy" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="589" VerticalAlignment="Top" Width="790" Margin="0,250,-146,0">
             <ListView.View>
                 <GridView >
+                    <GridViewColumn Header="Number" DisplayMemberBinding="{Binding Id}" Width="40" />
                     <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding FirstName}" Width="85" />
                     <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}" Width="85" />
                     <GridViewColumn Header="Gender" DisplayMemberBinding="{Binding Gender}" Width="60"/>

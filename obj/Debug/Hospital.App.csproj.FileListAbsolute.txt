@@ -170,3 +170,5 @@ C:\Users\gstoy\Desktop\a\trunk\obj\Debug\Pages\Rooms.baml
 C:\Users\gstoy\Desktop\a\trunk\obj\Debug\Hospital.App.g.resources
 C:\Users\gstoy\Desktop\a\trunk\obj\Debug\Hospital.App.Properties.Resources.resources
 C:\Users\gstoy\Desktop\a\trunk\obj\Debug\Hospital.App.csproj.GenerateResource.Cache
+C:\Users\gstoy\Desktop\a\trunk\obj\Debug\Pages\Edit.g.cs
+C:\Users\gstoy\Desktop\a\trunk\obj\Debug\Pages\Edit.baml

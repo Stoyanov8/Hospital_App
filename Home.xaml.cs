@@ -45,7 +45,7 @@ namespace Hospital.App
 
         private void editPatient_Click(object sender, RoutedEventArgs e)
         {
-
+            Main.Content = new Edit();
         }
     }
 }

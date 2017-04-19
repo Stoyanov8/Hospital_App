@@ -7,8 +7,14 @@
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Edit">
-
     <Grid>
-        
+        <TextBox x:Name="id"  HorizontalAlignment="Left" Height="23" Margin="165,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label"  Content="Enter patient number: " HorizontalAlignment="Left" Margin="33,24,0,0" VerticalAlignment="Top" Height="31" Width="127"/>
+        <Button x:Name="button" Content="Delete" Visibility="Visible" HorizontalAlignment="Left" Margin="190,59,0,0" VerticalAlignment="Top" Width="75" Click="delete_check_click"/>
+        <Button x:Name="Yes" Visibility="Hidden" Content="Yes" HorizontalAlignment="Left" Margin="309,152,-84,0" VerticalAlignment="Top" Width="75" Click="yes_click"/>
+        <Button x:Name="No" Visibility="Hidden" Content="No" HorizontalAlignment="Left" Margin="416,152,-191,0" VerticalAlignment="Top" Width="75" Click="no_click"/>
+        <Label x:Name="deletedmessage" FontSize="20" Visibility="Visible" Content="&#xA;" HorizontalAlignment="Left" Margin="-8,167,-178,0" VerticalAlignment="Top" Height="65" Width="486" />
+        <Label x:Name="_delete" Content="" Visibility="Hidden" HorizontalAlignment="Left" Margin="190,24,-457,0" VerticalAlignment="Top" Height="80" Width="567" FontSize="18"/>
+        <Label x:Name="label_delete" Content="" Visibility="Hidden" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="309,-10,-342,0" Height="65" Width="333"/>
     </Grid>
 </Page>
