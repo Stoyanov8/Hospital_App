@@ -3,28 +3,32 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:Hospital.App.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="300" d:DesignWidth="300"
       Title="Patients" >
 
+    <!--<Page.Resources>
+        <DataTemplate DataType="{x:Type data:Patient}">
+            <TextBlock Text="{Binding FirstName}">
+            </TextBlock>
+        </DataTemplate>
+    </Page.Resources>-->
+
     <Grid Margin="0,-190,-344,-528" RenderTransformOrigin="0.414,0.673"  >
-        <ListView x:Name="listView_Copy" HorizontalAlignment="Left" Height="214" VerticalAlignment="Top" Width="562" Margin="0,625,0,-349">
+        <ListView x:Name="listView_Copy" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="589" VerticalAlignment="Top" Width="790" Margin="0,250,-146,0">
             <ListView.View>
                 <GridView >
                     <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding FirstName}" Width="85" />
                     <GridViewColumn Header="Last Name" DisplayMemberBinding="{Binding LastName}" Width="85" />
-                    <GridViewColumn Header="Gender" DisplayMemberBinding="{Binding Gender}" Width="85"/>
-                    <GridViewColumn Header="Birthday" DisplayMemberBinding="{Binding Birthday}" Width="85" />
-                    <GridViewColumn Header="Address" DisplayMemberBinding="{Binding Address}" Width="85" />
-                    <GridViewColumn Header="Phone Number"  DisplayMemberBinding="{Binding PhoneNumber}" Width="85"/>
-                    <GridViewColumn />
+                    <GridViewColumn Header="Gender" DisplayMemberBinding="{Binding Gender}" Width="60"/>
+                    <GridViewColumn Header="BirthDay" DisplayMemberBinding="{Binding BirthDay}" Width="88" />
+                    <GridViewColumn Header="Address" DisplayMemberBinding="{Binding Address}" Width="325" />
+                    <GridViewColumn Header="Phone Number"  DisplayMemberBinding="{Binding PhoneNumber}" Width="92"/>
                 </GridView>
             </ListView.View>
-            <ScrollBar x:Name="scrollBar1"  Width="29" RenderTransformOrigin="2.666,2.423" Height="249"/>
         </ListView>
-        <Label x:Name="MyPatients" Content="My patients" HorizontalAlignment="Center" Margin="10,285,424,0" FontSize="36" VerticalAlignment="Top" Width="210" Height="58" HorizontalContentAlignment="Center"/>
-        <ListView x:Name="listView_Copy1" HorizontalAlignment="Left" Height="214" VerticalAlignment="Top" Width="562" Margin="0,343,0,-67" RenderTransformOrigin="0.528,-0.612">
+        <!--<Label x:Name="MyPatients" Content="My patients" HorizontalAlignment="Center" Margin="10,285,424,0" FontSize="36" VerticalAlignment="Top" Width="210" Height="58" HorizontalContentAlignment="Center"/>
+        <ListView x:Name="listView_Copy1"  HorizontalAlignment="Left" Height="214" VerticalAlignment="Top" Width="562" Margin="0,343,0,-67" RenderTransformOrigin="0.528,-0.612">
             <ListView.View>
                 <GridView >
                     <GridViewColumn Header="First Name" DisplayMemberBinding="{Binding FirstName}" Width="85" />
@@ -38,6 +42,6 @@
             </ListView.View>
             <ScrollBar x:Name="scrollBar2"  Width="29" RenderTransformOrigin="2.666,2.423" Height="249"/>
         </ListView>
-        <Label x:Name="label_Copy1" Content="All patients" HorizontalAlignment="Center" Margin="0,567,434,-135" FontSize="36" VerticalAlignment="Top" Width="210" Height="58" HorizontalContentAlignment="Center"/>
+        <Label x:Name="label_Copy1" Content="All patients" HorizontalAlignment="Center" Margin="0,567,434,-135" FontSize="36" VerticalAlignment="Top" Width="210" Height="58" HorizontalContentAlignment="Center"/>-->
     </Grid>
 </Page>

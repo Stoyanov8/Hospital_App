@@ -13,7 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using HospitalApp.Data;
+using Models;
 namespace Hospital.App.Pages
 {
     /// <summary>
@@ -24,7 +25,12 @@ namespace Hospital.App.Pages
         public Patients()
         {
             InitializeComponent();
-            
+
+            var context = new HospitalAppEntities();
+            var patians = context.Patients.ToList();
+            this.DataContext = patians;
+            //xmlns:data="clr-namespace:Models;assembly=Models"
+            // xmlns:local="clr-namespace:Hospital.App.Pages"
         }
     }
 }
