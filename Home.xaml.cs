@@ -52,5 +52,10 @@ namespace Hospital.App
         {
             Main.Content = new newRehabilitation();
         }
+
+        private void newSurgery_Save_click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new NewSurgery();
+        }
     }
 }

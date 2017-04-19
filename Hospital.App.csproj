@@ -108,6 +108,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\NewSurgery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Patients.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -132,6 +136,9 @@
     </Compile>
     <Compile Include="Pages\newRehabilitation.xaml.cs">
       <DependentUpon>newRehabilitation.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\NewSurgery.xaml.cs">
+      <DependentUpon>NewSurgery.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Patients.xaml.cs">
       <DependentUpon>Patients.xaml</DependentUpon>
