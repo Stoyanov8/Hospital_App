@@ -10,3 +10,15 @@ D:\HospitalAppGit\trunk\HospitalApp.Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\HospitalAppGit\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.csprojResolveAssemblyReference.cache
 D:\HospitalAppGit\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.dll
 D:\HospitalAppGit\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\HospitalApp.Data.dll.config
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\HospitalApp.Data.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\HospitalApp.Data.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\Models.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\Models.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Data\obj\Debug\HospitalApp.Data.pdb

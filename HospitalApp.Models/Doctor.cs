@@ -28,7 +28,7 @@ namespace Models
 
         public string Specialty { get; set; }
 
-        public virtual  ICollection<Exam> Exams { get; set; }
+        public virtual ICollection<Exam> Exams { get; set; }
 
         public virtual ICollection<Surgery> Surgeries { get; set; }
 

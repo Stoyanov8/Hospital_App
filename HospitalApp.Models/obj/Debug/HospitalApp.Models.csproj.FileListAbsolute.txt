@@ -3,3 +3,8 @@ D:\HospitalAppGit\trunk\HospitalApp.Models\bin\Debug\Models.pdb
 D:\HospitalAppGit\trunk\HospitalApp.Models\obj\Debug\HospitalApp.Models.csprojResolveAssemblyReference.cache
 D:\HospitalAppGit\trunk\HospitalApp.Models\obj\Debug\Models.dll
 D:\HospitalAppGit\trunk\HospitalApp.Models\obj\Debug\Models.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Models\bin\Debug\Models.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Models\bin\Debug\Models.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Models\obj\Debug\HospitalApp.Models.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Models\obj\Debug\Models.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Models\obj\Debug\Models.pdb

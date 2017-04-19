@@ -13,7 +13,7 @@
     <Grid Margin="0,0,0,0">
         <StackPanel HorizontalAlignment="Left" Height="704" VerticalAlignment="Top" Width="92" RenderTransformOrigin="-0.629,0.493" Margin="0,96,0,0">
             <Button x:Name="button" Content="My Information" Height="100" BorderThickness="0" Background ="Azure" Click="MyInfo_click"/>
-            <Button x:Name="button1" Content="Patients" Height="100" BorderThickness="0" Background ="Azure" Click="button1_Click"/>
+            <Button x:Name="button1" Content="Patients" Height="100" BorderThickness="0" Background ="Azure" />
             <Button x:Name="button2" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
             <Button x:Name="button2_Copy" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />
             <Button x:Name="button2_Copy1" Content="Button" Height="100"  BorderThickness="0" Background ="Azure"  />

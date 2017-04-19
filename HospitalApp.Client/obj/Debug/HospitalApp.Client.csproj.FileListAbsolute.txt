@@ -46,3 +46,19 @@ D:\HospitalAppGit\trunk\HospitalApp.Client\bin\Debug\Newtonsoft.Json.xml
 D:\HospitalAppGit\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.csprojResolveAssemblyReference.cache
 D:\HospitalAppGit\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.exe
 D:\HospitalAppGit\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Client.exe.config
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.exe
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Client.exe
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Client.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Data.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Import.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\Models.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Data.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\HospitalApp.Import.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\Models.pdb
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\admin\Desktop\Нова папка (2)\trunk\HospitalApp.Client\obj\Debug\HospitalApp.Client.csprojResolveAssemblyReference.cache
