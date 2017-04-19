@@ -176,3 +176,5 @@ C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\Edit.g.cs
 C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\newPatient.g.cs
 C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\Edit.baml
 C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\newPatient.baml
+C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\newRehabilitation.g.cs
+C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\newRehabilitation.baml

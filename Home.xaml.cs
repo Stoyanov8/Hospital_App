@@ -47,5 +47,10 @@ namespace Hospital.App
         {
             Main.Content = new Edit();
         }
+
+        private void NewRehabilitations_Click(object sender, RoutedEventArgs e)
+        {
+            Main.Content = new newRehabilitation();
+        }
     }
 }

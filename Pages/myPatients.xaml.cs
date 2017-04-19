@@ -36,8 +36,6 @@ namespace Hospital.App.Pages
                      var mypatient = context.Patients.Where(x => x.Id == mydoc.PatientId);
                     this.DataContext = mypatient;
                 }
-               
-
             }
         }
     }
