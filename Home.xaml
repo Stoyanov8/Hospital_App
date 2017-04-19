@@ -16,7 +16,7 @@
             <Button x:Name="Patients" Content="Patients" Height="100" BorderThickness="0" Background ="Azure" Click="patients_click"/>
             <Button x:Name="MyPatients" Content="My patients" Height="100"  BorderThickness="0" Background ="Azure" Click="myPatients_click"  />
             <Button x:Name="Newpatient" Content="New patient" Height="100"  BorderThickness="0" Background ="Azure" Click="Newpatient_Click" />
-            <Button x:Name="button2_Copy1" Content="Edit patient&#xD;&#xA;&#xD;&#xA;(Delete/Update)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" Height="100"  BorderThickness="0" Background ="Azure" Click="editPatient_Click" />
+            <Button x:Name="button2_Copy1" Content="Edit patient&#xD;&#xA;&#xD;&#xA;(Delete)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" Height="100"  BorderThickness="0" Background ="Azure" Click="editPatient_Click" />
             <Button x:Name="button2_Copy2" Content="Button" Height="100" BorderThickness="0" Background ="Azure"   />
             <Button x:Name="button2_Copy3" Content="Button" Height="100" BorderThickness="0" Background ="Azure"   />
         </StackPanel>

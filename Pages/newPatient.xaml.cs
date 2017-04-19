@@ -36,11 +36,18 @@ namespace Hospital.App.Pages
                 patient.LastName = LastName.Text;
                 patient.Address = Address.Text;
                 patient.PhoneNumber = PhoneNumber.Text;
-                context.Patients.Add(patient);
-                added.Content = $"Patient {patient.FirstName} {patient.LastName} added !";
-                added.Visibility = Visibility.Visible;
-                context.SaveChanges();
-               
+                patient.Gender = Gender.Text;
+                if (patient.FirstName == string.Empty || patient.LastName==string.Empty|| patient.Address==string.Empty|| patient.PhoneNumber==string.Empty || patient.Gender==string.Empty)
+                {
+                    MessageBox.Show("Error: Check if there is any missing proparties");
+                }
+                else
+                {
+                    context.Patients.Add(patient);
+                    added.Content = $"Patient {patient.FirstName} {patient.LastName} added !";
+                    added.Visibility = Visibility.Visible;
+                    context.SaveChanges();
+                }
             }
         }
     }

@@ -26,13 +26,9 @@ namespace Hospital.App.Pages
             InitializeComponent(); 
 
         }
-
-
-
         private void delete_check_click(object sender, RoutedEventArgs e)
         {
             using (var context = new HospitalAppEntities())
-
             {
                 var id1 = Convert.ToInt32(id.Text);
                 var fullname =
@@ -42,14 +38,13 @@ namespace Hospital.App.Pages
                 _delete.Visibility = Visibility.Visible;
                 _delete.Content = $"Are you sure you want to remove {fullname.FullName}";
            
-            id.Visibility = Visibility.Hidden;
-            button.Visibility = Visibility.Hidden;
-            label.Visibility = Visibility.Hidden;
-            label_delete.Visibility = Visibility.Hidden;
-            Yes.Visibility = Visibility.Visible;
-            No.Visibility = Visibility.Visible;
+                id.Visibility = Visibility.Hidden;
+                button.Visibility = Visibility.Hidden;
+                label.Visibility = Visibility.Hidden;
+                label_delete.Visibility = Visibility.Hidden;
+                Yes.Visibility = Visibility.Visible;
+                No.Visibility = Visibility.Visible;
                 deletedmessage.Visibility = Visibility.Hidden;
-
             }
         }
 
