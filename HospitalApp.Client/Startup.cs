@@ -13,6 +13,8 @@ namespace HospitalApp.Client
             AddPatient.AddPatients();
             AddDisease.AddDiseases();
             AddExam.ImportExams();
+            AddRehabilitation.ImportRehabilitation();
+            AddSurgery.ImportSurgery();
         }
     }
 }
