@@ -12,7 +12,7 @@ namespace HospitalApp.Data
         public HospitalAppEntities()
             : base("name=HospitalAppEntities")
         {
-            Database.SetInitializer(new DropCreateDatabaseAlways<HospitalAppEntities>());
+            //Database.SetInitializer(new DropCreateDatabaseAlways<HospitalAppEntities>());
         }
 
 

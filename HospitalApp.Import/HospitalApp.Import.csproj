@@ -57,7 +57,9 @@
     <Compile Include="AddDoctor.cs" />
     <Compile Include="AddExam.cs" />
     <Compile Include="AddPatient.cs" />
+    <Compile Include="AddRehabilitation.cs" />
     <Compile Include="AddRoom.cs" />
+    <Compile Include="AddSurgery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,14 +7,14 @@ namespace HospitalApp.Client
     {
         static void Main(string[] args)
         {
-            Utility.InitDb();
-            AddRoom.AddRooms();
-            AddDoctor.AddDoctors();
-            AddPatient.AddPatients();
-            AddDisease.AddDiseases();
-            AddExam.ImportExams();
-            AddRehabilitation.ImportRehabilitation();
-            AddSurgery.ImportSurgery();
+            //Utility.InitDb();
+            //AddRoom.AddRooms();
+            //AddDoctor.AddDoctors();
+            //AddPatient.AddPatients();
+            //AddDisease.AddDiseases();
+            //AddExam.ImportExams();
+            //AddRehabilitation.ImportRehabilitation();
+            //AddSurgery.ImportSurgery();
         }
     }
 }
