@@ -27,6 +27,7 @@ namespace Hospital.App.Pages
             InitializeComponent();
 
             var context = new HospitalAppEntities();
+         
             var patians = context.Patients.ToList();
             this.DataContext = patians;
             //xmlns:data="clr-namespace:Models;assembly=Models"
