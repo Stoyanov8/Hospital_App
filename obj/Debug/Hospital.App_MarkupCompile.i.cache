@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\
+D:\HospitalAppGit\trunk\obj\Debug\
 Hospital.App
 none
 false
 DEBUG;TRACE
-C:\Users\admin\Desktop\Нова папка (2)\trunk\App.xaml
+D:\HospitalAppGit\trunk\App.xaml
 42039836781
 
-131471541431
-19-1083849903
+13188213805
+19-851724974
 Home.xaml;MainWindow.xaml;Pages\MyInfo.xaml;Pages\Rooms.xaml;
 
 True
