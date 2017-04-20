@@ -27,15 +27,8 @@ namespace Hospital.App.Pages
             InitializeComponent();
             using (var context = new HospitalAppEntities())
             {
-                var doc = context.Doctors.Where(x => x.Password == Global.password)
-                    .Select(y => y.Id)
-                    .FirstOrDefault();
-                var mydocs = context.Exams.Where(x => x.DoctorId == doc).ToList();
-                 foreach (var mydoc in mydocs)
-                 {
-                     var mypatient = context.Patients.Where(x => x.Id == mydoc.PatientId);
-                    this.DataContext = mypatient;
-                }
+                var doc = context.Doctors.Where(x => x.Password == Global.password);
+                
             }
         }
     }

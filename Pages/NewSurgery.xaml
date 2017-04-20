@@ -20,6 +20,18 @@
         <Label x:Name="label_Copy2" Content="PatientId:" HorizontalAlignment="Left" Margin="46,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
         <Label x:Name="label_Copy3" Content="DiseaseId:" HorizontalAlignment="Left" Margin="43,158,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
         <Label x:Name="label_Copy4" Content="DoctorId: " HorizontalAlignment="Left" Margin="46,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.292,-2.323"/>
-        <Label x:Name="added" Content="" HorizontalAlignment="Left" Margin="0,298,0,0" VerticalAlignment="Top" Width="452" Height="28"/>
+        <Label x:Name="added" Content="" HorizontalAlignment="Left" Margin="298,131,-150,0" VerticalAlignment="Top" Width="452" Height="28"/>
+
+        <ListView x:Name="listView_Copy" ItemsSource="{Binding}" HorizontalAlignment="Left" Height="351" VerticalAlignment="Top" Width="523" Margin="-177,275,0,-26">
+            <ListView.View>
+                <GridView >
+                    <GridViewColumn Header="Surgery Date" DisplayMemberBinding="{Binding SurgeryDate}" Width="150" />
+                    <GridViewColumn Header="Room Id" DisplayMemberBinding="{Binding RoomId}" Width="60"/>
+                    <GridViewColumn Header="Patient Id" DisplayMemberBinding="{Binding PatientId}" Width="88" />
+                    <GridViewColumn Header="Disease Id" DisplayMemberBinding="{Binding DiseaseId}" Width="90" />
+                    <GridViewColumn Header="Doctor Id"  DisplayMemberBinding="{Binding DoctorId}" Width="92"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
     </Grid>
 </Page>

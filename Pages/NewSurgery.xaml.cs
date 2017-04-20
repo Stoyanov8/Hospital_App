@@ -24,6 +24,11 @@ namespace Hospital.App.Pages
         public NewSurgery()
         {
             InitializeComponent();
+
+            var context = new HospitalAppEntities();
+
+            var sugery = context.Surgeries.ToList();
+            this.DataContext = sugery;
         }
         private void newSurgery_Save_click(object sender, RoutedEventArgs e)
         {

@@ -24,6 +24,11 @@ namespace Hospital.App.Pages
         public newRehabilitation()
         {
             InitializeComponent();
+
+            var context = new HospitalAppEntities();
+
+            var rehabilitations = context.Rehabilitations.ToList();
+            this.DataContext = rehabilitations;
         }
         private void newRehabilitation_Save_click(object sender, RoutedEventArgs e)
         {
