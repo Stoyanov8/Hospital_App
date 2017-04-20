@@ -180,3 +180,4 @@ C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\newRehabili
 C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\newRehabilitation.baml
 C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\NewSurgery.g.cs
 C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Pages\NewSurgery.baml
+C:\Users\admin\Desktop\Нова папка (2)\trunk\obj\Debug\Hospital.App_Content.g.cs

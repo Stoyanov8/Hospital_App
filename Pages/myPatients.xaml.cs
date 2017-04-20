@@ -15,6 +15,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using HospitalApp.Data;
 
+using System.Data.SqlClient;
+
 namespace Hospital.App.Pages
 {
     /// <summary>
@@ -27,8 +29,18 @@ namespace Hospital.App.Pages
             InitializeComponent();
             using (var context = new HospitalAppEntities())
             {
-                var doc = context.Doctors.Where(x => x.Password == Global.password);
-                
+                var doc = context.Doctors
+                    .Where(x => x.Password == Global.password)
+                    .Select(d => d.Id)
+                    .FirstOrDefault();
+                var patientsFromExam = context.Exams
+                    .Where(d => d.DoctorId == doc)
+                    .Select(x=>x.PatientId)
+                    .FirstOrDefault();
+                var patients = context.Patients
+                       .Where(p => p.Id == patientsFromExam).ToList();
+
+                this.DataContext = patients;
             }
         }
     }
